@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$usuario = "zazilhsp_zaziluser";  // Nombre de usuario que creaste
-$contrasenia = "Abraham_MV2209";  // Contraseña que configuraste
+$usuario = "root";  // Nombre de usuario que creaste
+$contrasenia = "";  // Contraseña que configuraste
 $db = "zazilhsp_zazil";  // Nombre de la base de datos que creaste
 
 try {
