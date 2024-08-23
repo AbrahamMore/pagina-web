@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ece4a7; /* Ajusta el fondo para que cubra toda la pantalla */
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ece4a7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    width: 100%;
+    max-width: 100%; /* Asegura que el contenedor ocupe el ancho completo */
+}
+
+.contact-info {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    word-wrap: break-word; /* Ajusta el texto para que no se desborde */
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.contact-details li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido en pantallas pequeñas */
+}
+
+.contact-details img {
+    margin-right: 0.5rem;
+    height: 28px;
+}
+
+.social-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.social-cards a {
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.527);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Colores para cada red social */
+.whatsapp {
+    background-color: #21bb59;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.instagram {
+    background-color: #E1306C;
+}
+
+/* Efecto hover para las tarjetas */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 768px) {
+    .contact-container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem;
+    }
+    
+    .contact-info {
+        text-align: left;
+        width: 50%;
+    }
+    
+    .social-cards {
+        justify-content: flex-start;
+        width: 50%;
+    }
+    
+    .card {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .card img {
+        width: 50px;
+        height: 50px;
+    }
+}

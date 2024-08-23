@@ -1,0 +1,113 @@
+/* Archivo: css/productos.css */
+
+body {
+    background-color: #ece4a7; /* Fondo claro similar al de la imagen */
+    margin: 0;
+    padding: 0;
+}
+
+.container-custom {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.title {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    margin-bottom: 2rem;
+    overflow: hidden; /* Asegura que los bordes redondeados corten la imagen */
+    position: relative;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 4px solid #d4a373; /* Añade un borde inferior de color */
+}
+
+.card-body {
+    padding: 1rem;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #d9534f; /* Color del texto similar al ejemplo */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Archivo: css/productos.css */
+
+/* Resto de estilos anteriores... */
+
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añadido para la transición suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta al 105% */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Aumenta la sombra cuando se hace hover */
+}
+
+/* Estilo de la imagen */
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+    border-bottom: 4px solid #d4a373;
+}
+
+.card-body {
+    padding: 1rem;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #d9534f;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
